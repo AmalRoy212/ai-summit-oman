@@ -35,7 +35,7 @@ function Sponsors() {
         {/* from the Recent Past */}
       </motion.div>
       <h3 className="text-transparent text-xl text-center text-white">
-        EXHIBITING PARTNER
+        STRATEGIC PARTNER
       </h3>
       <div className="w-full flex md:flex-row flex-col justify-center min-h-52">
         {statergicPartners.map(
@@ -43,7 +43,7 @@ function Sponsors() {
         )}
       </div>
       <h3 className="text-transparent text-xl text-center text-white">
-        STRATEGIC PARTNER
+        EXHIBITING PARTNER
       </h3>
       <div className="w-full flex md:flex-row flex-col justify-center min-h-52">
         {sponsorsDataProvider.map(
