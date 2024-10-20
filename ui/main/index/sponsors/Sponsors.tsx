@@ -3,7 +3,7 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./sponsor.css";
-import { sponsorsDataProvider } from "@/constants/sponsorsDataProvider";
+import { sponsorsDataProvider, statergicPartners } from "@/constants/sponsorsDataProvider";
 import SponsordsData from "@/ui/sub/index/sponsors/SponsordsData";
 import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
@@ -36,6 +36,14 @@ function Sponsors() {
       </motion.div>
       <h3 className="text-transparent text-xl text-center text-white">
         EXHIBITING PARTNER
+      </h3>
+      <div className="w-full flex md:flex-row flex-col justify-center min-h-52">
+        {statergicPartners.map(
+          (img) => img && <SponsordsData imgSrc={img} />
+        )}
+      </div>
+      <h3 className="text-transparent text-xl text-center text-white">
+        STRATEGIC PARTNER
       </h3>
       <div className="w-full flex md:flex-row flex-col justify-center min-h-52">
         {sponsorsDataProvider.map(

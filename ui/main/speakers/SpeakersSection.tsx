@@ -158,6 +158,15 @@ const profilesFour = [
     linkedIn: "#",
     marginTP: 0,
   },
+  {
+    name: "Khalid Alhosni",
+    title: "CEO & Chief Data Scientist",
+    company: "KA Consultants",
+    organization: "OMAN",
+    image: "/images/speakers/Khalid_Alhosni.jpg",
+    linkedIn: "#",
+    marginTP: 0,
+  },
 ];
 
 const SpeakerProfiles: React.FC = () => {
